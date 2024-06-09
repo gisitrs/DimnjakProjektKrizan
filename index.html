@@ -36,7 +36,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Učitavanje...</span>
+            <span class="sr-only" id="loadingId">Učitavanje...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -52,7 +52,7 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
-                    <small>Pon - Petak : 08.00 - 16.00</small>
+                    <small id="workingTimeId">Pon - Petak : 08.00 - 16.00</small>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -75,7 +75,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-                <h2 class="m-0 text-primary">Dimnjak Projekt</h2>
+                <h5 class="m-0 text-primary">Dimnjak Projekt Križan</h5>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -98,8 +98,8 @@
                 </div>-->
                 <a href="contact.html" class="nav-item nav-link">Kontakt</a>
                 <div class="button-container">
-                    <img src="img/rs.svg" alt="" onclick="myFunction()" class="image-flag"></img>
-                    <img src="img/gb.svg" alt="" onclick="myFunction()" class="image-flag" style="margin-left:10px; margin-right:10px"></img>
+                    <img src="img/rs.svg" alt="" onclick="translateToSerbian()" class="image-flag"></img>
+                    <img src="img/gb.svg" alt="" onclick="translateToEnglish()" class="image-flag" style="margin-left:10px; margin-right:10px"></img>
                 </div>
             </div>
             <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
@@ -117,7 +117,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Dobrodošli na sajt Dimnjak Projekta</h5>
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Dobrodošli na sajt kompanije Dimnjak Projekt Križan DOO</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Prodaja građevinskog materijala</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Prodaja velikog broja proizvoda u građevini, uveženih iz Evrope visokog kvaliteta.</p>
                                 <!--<a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Više</a>
@@ -168,7 +168,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <!--<div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center justify-content-between mb-2">
                         <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
                             <i class="fa fa-user-check fa-2x text-primary"></i>
@@ -176,15 +176,15 @@
                         <h1 class="display-1 text-light mb-0">01</h1>
                     </div>
                     <h5>Creative Designers</h5>
-                </div>
+                </div>-->
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="d-flex align-items-center justify-content-between mb-2">
                         <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
                             <i class="fa fa-check fa-2x text-primary"></i>
                         </div>
-                        <h1 class="display-1 text-light mb-0">02</h1>
+                        <h1 class="display-1 text-light mb-0">10</h1>
                     </div>
-                    <h5>Quality Products</h5>
+                    <h5>Broj proizvoda</h5>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="d-flex align-items-center justify-content-between mb-2">
@@ -193,9 +193,9 @@
                         </div>
                         <h1 class="display-1 text-light mb-0">03</h1>
                     </div>
-                    <h5>Free Consultation</h5>
+                    <h5>Garancija</h5>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <!--<div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center justify-content-between mb-2">
                         <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
                             <i class="fa fa-headphones fa-2x text-primary"></i>
@@ -203,7 +203,7 @@
                         <h1 class="display-1 text-light mb-0">04</h1>
                     </div>
                     <h5>Customer Support</h5>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -223,9 +223,9 @@
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">About Us</h1>
+                            <h1 class="display-5 mb-4">O nama</h1>
                         </div>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="mb-4 pb-2">Kompanija je osnovana 2023. godine sa predstavništvom u Beogradu. Osnovna delatnost je uvoz i prodaja građevinskog materijala.</p>
                         <div class="row g-4 mb-4 pb-2">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="d-flex align-items-center">
@@ -233,8 +233,8 @@
                                         <i class="fa fa-users fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">1234</h2>
-                                        <p class="fw-medium mb-0">Happy Clients</p>
+                                        <h2 class="text-primary mb-1" data-toggle="counter-up">105</h2>
+                                        <p class="fw-medium mb-0">Zadovoljni klijenti</p>
                                     </div>
                                 </div>
                             </div>
@@ -244,13 +244,13 @@
                                         <i class="fa fa-check fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">1234</h2>
-                                        <p class="fw-medium mb-0">Projects Done</p>
+                                        <h2 class="text-primary mb-1" data-toggle="counter-up">12</h2>
+                                        <p class="fw-medium mb-0">Inostrane kompanije</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
+                        <a href="about.html" class="btn btn-primary py-3 px-5">Pročitaj više</a>
                     </div>
                 </div>
             </div>
@@ -263,7 +263,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Services</h1>
+                <h1 class="display-5 mb-5">Naši proizvodi</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -272,9 +272,9 @@
                             <img class="img-fluid" src="img/service-1.jpg" alt="">
                         </div>
                         <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">General Carpentry</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Erlus crep</h4>
+                            <p>Crep vrhunskog kvaliteta uvežen iz Nemačke</p>
+                            <a class="fw-medium" href="service.html">Pročitaj više<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -284,9 +284,9 @@
                             <img class="img-fluid" src="img/service-2.jpg" alt="">
                         </div>
                         <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Furniture Manufacturing</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Schiedel dimnjaci</h4>
+                            <p>INOX i zidani dimnjaci renomiranog proizvođača iz Austrije.</p>
+                            <a class="fw-medium" href="service.html">Pročitaj više<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -296,9 +296,9 @@
                             <img class="img-fluid" src="img/service-3.jpg" alt="">
                         </div>
                         <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Furniture Remodeling</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">GREE inverter klime</h4>
+                            <p>GREE je sinonim za inverter klime vrhunskog kvaliteta.</p>
+                            <a class="fw-medium" href="service.html">Pročitaj više<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -308,13 +308,13 @@
                             <img class="img-fluid" src="img/service-4.jpg" alt="">
                         </div>
                         <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Wooden Floor</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                            <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <h4 class="mb-3">Decking podloge (Eko-Daska)</h4>
+                            <p>Savremen materijal za pokrivanje terasa i ostalih vanjskih površina.</p>
+                            <a class="fw-medium" href="service.html">Pročitaj više<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <!--<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/service-5.jpg" alt="">
@@ -337,7 +337,7 @@
                             <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -351,9 +351,9 @@
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 ps-lg-0">
                         <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Why Choose Us</h1>
+                            <h1 class="display-5 mb-4">Zašto izabrati nas</h1>
                         </div>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="mb-4 pb-2">Kvalitetni proizvodi sa garancijom i brzim rokom dostave. Tim prodavaca koji je na usluzi kupcima širom države.</p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -361,8 +361,8 @@
                                         <i class="fa fa-check fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-2">Quality</p>
-                                        <h5 class="mb-0">Services</h5>
+                                        <p class="mb-2">Kvalitet</p>
+                                        <h5 class="mb-0">Proizvodi</h5>
                                     </div>
                                 </div>
                             </div>
@@ -372,8 +372,8 @@
                                         <i class="fa fa-user-check fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-2">Creative</p>
-                                        <h5 class="mb-0">Designers</h5>
+                                        <p class="mb-2">Dostava</p>
+                                        <h5 class="mb-0">Usluga</h5>
                                     </div>
                                 </div>
                             </div>
@@ -383,12 +383,12 @@
                                         <i class="fa fa-drafting-compass fa-2x text-primary"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-2">Free</p>
-                                        <h5 class="mb-0">Consultation</h5>
+                                        <p class="mb-2">Pomoć</p>
+                                        <h5 class="mb-0">Konsultacije</h5>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <!--<div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
                                         <i class="fa fa-headphones fa-2x text-primary"></i>
@@ -398,7 +398,7 @@
                                         <h5 class="mb-0">Support</h5>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -414,7 +414,7 @@
 
 
     <!-- Projects Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="section-title text-center">
                 <h1 class="display-5 mb-5">Our Projects</h1>
@@ -521,12 +521,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Projects End -->
 
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <!-- <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container quote px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
@@ -571,7 +571,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Quote End -->
 
 
@@ -579,12 +579,12 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Team Members</h1>
+                <h1 class="display-5 mb-5">Članovi tima</h1>
             </div>
-            <div class="row g-4">
+            <div class="row g-12">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <div class="overflow-hidden position-relative">
+                        <div class="overflow-hidden position-center">
                             <img class="img-fluid" src="img/team-1.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -593,12 +593,12 @@
                             </div>
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Petar Križan</h5>
+                            <small>Direktor</small>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <!--<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="overflow-hidden position-relative">
                             <img class="img-fluid" src="img/team-2.jpg" alt="">
@@ -645,7 +645,7 @@
                             <small>Designation</small>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -656,33 +656,33 @@
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Testimonial</h1>
+                <h1 class="display-5 mb-5">Zadovoljni kupci</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 90px; height: 90px;">
                     <div class="testimonial-text text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>Zaista kvalitetni proizvodi sa garantnim rokom. Prodavci ljubazni i maksimalno posvećeni kupcima.</p>
+                        <h5 class="mb-1">Ana Petrović</h5>
+                        <span class="fst-italic">Građevinski inženjer</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 90px; height: 90px;">
                     <div class="testimonial-text text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>Sve pohvale za rad tima i podršku na terenu. Uz brzu dostavu i konkurentne cene kupovina je bila pravo uživanje.</p>
+                        <h5 class="mb-1">Marko Marković</h5>
+                        <span class="fst-italic">Profesor</span>
                     </div>
                 </div>
-                <div class="testimonial-item text-center">
+                <!--<div class="testimonial-item text-center">
                     <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 90px; height: 90px;">
                     <div class="testimonial-text text-center p-4">
                         <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                         <h5 class="mb-1">Client Name</h5>
                         <span class="fst-italic">Profession</span>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -694,10 +694,10 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h4 class="text-light mb-4">Adresa</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Gandijeva 89, Beograd</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+381 63 661 766</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>petar.krizan.dimnjaci@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -706,29 +706,28 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">General Carpentry</a>
-                    <a class="btn btn-link" href="">Furniture Remodeling</a>
-                    <a class="btn btn-link" href="">Wooden Floor</a>
-                    <a class="btn btn-link" href="">Wooden Furniture</a>
-                    <a class="btn btn-link" href="">Custom Carpentry</a>
+                    <h4 class="text-light mb-4">Proizvodi</h4>
+                    <a class="btn btn-link" href="service.html">Erlus crep</a>
+                    <a class="btn btn-link" href="service.html">Schiedel dimnjaci</a>
+                    <a class="btn btn-link" href="service.html">GREE inverter klime</a>
+                    <a class="btn btn-link" href="service.html">Decking podloge</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h4 class="text-light mb-4">Brzi linkovi</h4>
+                    <a class="btn btn-link" href="about.html">O nama</a>
+                    <a class="btn btn-link" href="contact.html">Kontakt</a>
+                    <a class="btn btn-link" href="service.html">Naši proizvodi</a>
+                    <!--<a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>-->
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!--<div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="container">
@@ -766,6 +765,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/homeTranslations.js"></script>
+    <script src="js/homeSRBTexts.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 class HomeTranslations {
     constructor() {
-        this.SelectText = "Test eng";
+        this.LoadingId = "Loading...";
+        this.WorkingTimeId = "Monday - Friday : 08.00 AM - 4.00 PM";
     }
   }

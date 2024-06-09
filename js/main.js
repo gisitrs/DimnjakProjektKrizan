@@ -99,8 +99,23 @@
     
 })(jQuery);
 
-function myFunction(){
-    var a = new HomeTranslations();
-    alert(a.SelectText);
+function translateToEnglish(){
+    translateHomePage("eng");
+}
+
+function translateToSerbian(){
+    translateHomePage("srb");
+}
+
+function translateHomePage(language){
+    var documentTexts;
+    if(language == "eng"){
+        documentTexts = new HomeTranslations();  
+    }
+    else {
+        documentTexts = new HomeSRBTexts();
+    }
+
+    var a = document.getElementById("workingTimeId").innerText = documentTexts.WorkingTimeId;
 }
 
