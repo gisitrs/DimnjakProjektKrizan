@@ -116,6 +116,10 @@ function translateHomePage(language){
         documentTexts = new HomeSRBTexts();
     }
 
-    var a = document.getElementById("workingTimeId").innerText = documentTexts.WorkingTimeId;
+    document.getElementById("workingTimeId").innerText = documentTexts.WorkingTimeId;   
+    document.getElementById("indexHomePageId").innerText = documentTexts.IndexHomePageId;
+    document.getElementById("indexAboutPageId").innerText = documentTexts.IndexAboutPageId;
+    document.getElementById("indexServicePageId").innerText = documentTexts.IndexServicePageId;
+    document.getElementById("indexContactPageId").innerText = documentTexts.IndexContactPageId;
 }
 
