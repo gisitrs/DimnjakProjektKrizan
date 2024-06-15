@@ -262,9 +262,9 @@
     <script src="js/main.js"></script>
 
     <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
-    <script src="https://www.openlayers.org/api/OpenLayers.js"></script>
+    <!--<script src="https://www.openlayers.org/api/OpenLayers.js"></script>-->
     <script>
-        /*var attribution = new ol.control.Attribution({
+        var attribution = new ol.control.Attribution({
             collapsible: false
         });
 
@@ -297,9 +297,9 @@
            })
         });
 
-        map.addLayer(layer);*/
+        map.addLayer(layer);
 
-        map = new OpenLayers.Map("map");
+        /*map = new OpenLayers.Map("map");
         map.addLayer(new OpenLayers.Layer.OSM());
 
         var lonLat = new OpenLayers.LonLat( [20.38866, 44.80772] )
@@ -315,7 +315,7 @@
     
         markers.addMarker(new OpenLayers.Marker(lonLat));
     
-        map.setCenter (lonLat, zoom);
+        map.setCenter (lonLat, zoom);*/
 
     </script>
 </body>
