@@ -559,7 +559,7 @@
     }
 }
 
-p {text-align: justify;}
+/*** p {text-align: justify;} **/
 
 /*** Footer ***/
 .footer {
