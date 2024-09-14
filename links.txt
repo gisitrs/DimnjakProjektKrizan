@@ -1,2 +1,26 @@
 
 GitHub linkpath - https://gisitrs.github.io/DimnjakProjektKrizan/
+
+Feedback
+
+- Na Google Chrome-u koji se pokreće na Mac-u, slike u prikazu su prevelike, treba smanjiti njihovu veličinu
+- Promeniti tekst u sekciji "O nama". Razmotriti da li da se brojevi koji govore o klijentima "Zadovoljnim klijentima" i "Inostranim kompanijama" uopšte prikazuju. (Zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
+
+- Sajt prodajainoxdimnjaka.rs prikazati samo kao link koji klikom vodi na tu adresu, skloniti ugrađen prozor koji prikazuje sadržaj sajta
+- Sekciju "Članovi tima" izbaciti sa sajta
+
+- U navigacionom linku za proizvode napraviti padajući meni sa svim proizvodima pojedinačno, tako da korisnik može odmah da ode na stranicu za određeni proizvod
+- Promeniti redosled proizvoda u okviru stranice "Proizvodi". Red sa Alu i drvenim merdevinama, Krovnim prozorima i Krovnim folijama, postaviti da bude prvi sa novim redosledom (Krovne folije, Alu i drvenim merdevinama i Krovnim prozorima)
+
+- Proizvodima dodati mogućnost da se klikom na sliku korisnik navigira na konkretnu stranicu proizvoda (kao što je sada na "Pročitaj više")
+- Promeniti tekstove kod svih proizvoda (sekcija "Karakteristike", zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
+
+- Skinuti cenovnike. U okviru teksta će biti naznačene neke od MP i VP cena, sa napomenom "Upit za cenu"
+- Promena fotografija za većinu proizvoda (Zamolio bih Ljiljanu da mi dostavi nove fotografije). 
+
+- ISTRAŽITI kako da se uklope tekst i pojedine fotografije zajedno i da se tako prikazuju za pojedine proizvode.
+- ISTRAŽITI Search funkcionalnost
+- ISTRAŽITI zašto se na Mac-u pojavljuje BitNINJA zabrana za sajt prodajainoxdimnjaka.rs
+
+- Krovni dodaci da dobiju zasebnu stranicu
+- U footer-u dodati sekciju sa korisnim linkovima (pored sekcije "Brzi linkovi")
