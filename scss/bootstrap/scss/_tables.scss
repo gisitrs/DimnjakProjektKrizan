@@ -17,11 +17,6 @@
   vertical-align: $table-cell-vertical-align;
   border-color: $table-border-color;
 
-  // Target th & td
-  // We need the child combinator to prevent styles leaking to nested tables which doesn't have a `.table` class.
-  // We use the universal selectors here to simplify the selector (else we would need 6 different selectors).
-  // Another advantage is that this generates less code and makes the selector less specific making it easier to override.
-  // stylelint-disable-next-line selector-max-universal
   > :not(caption) > * > * {
     padding: $table-cell-padding-y $table-cell-padding-x;
     background-color: var(--#{$variable-prefix}table-bg);
@@ -43,19 +38,9 @@
   }
 }
 
-
-//
-// Change placement of captions with a class
-//
-
 .caption-top {
   caption-side: top;
 }
-
-
-//
-// Condensed table w/ half padding
-//
 
 .table-sm {
   // stylelint-disable-next-line selector-max-universal
@@ -63,16 +48,6 @@
     padding: $table-cell-padding-y-sm $table-cell-padding-x-sm;
   }
 }
-
-
-// Border versions
-//
-// Add or remove borders all around the table and between all the columns.
-//
-// When borders are added on all sides of the cells, the corners can render odd when
-// these borders do not have the same color or if they are semi-transparent.
-// Therefor we add top and border bottoms to the `tr`s and left and right borders
-// to the `td`s or `th`s
 
 .table-bordered {
   > :not(caption) > * {
@@ -92,10 +67,6 @@
   }
 }
 
-// Zebra-striping
-//
-// Default zebra-stripe styles (alternating gray and transparent backgrounds)
-
 .table-striped {
   > tbody > tr:nth-of-type(#{$table-striped-order}) {
     --#{$variable-prefix}table-accent-bg: var(--#{$variable-prefix}table-striped-bg);
@@ -103,18 +74,10 @@
   }
 }
 
-// Active table
-//
-// The `.table-active` class can be added to highlight rows or cells
-
 .table-active {
   --#{$variable-prefix}table-accent-bg: var(--#{$variable-prefix}table-active-bg);
   color: var(--#{$variable-prefix}table-active-color);
 }
-
-// Hover effect
-//
-// Placed here since it has to come after the potential zebra striping
 
 .table-hover {
   > tbody > tr:hover {
@@ -123,20 +86,9 @@
   }
 }
 
-
-// Table variants
-//
-// Table variants set the table cell backgrounds, border colors
-// and the colors of the striped, hovered & active tables
-
 @each $color, $value in $table-variants {
   @include table-variant($color, $value);
 }
-
-// Responsive tables
-//
-// Generate series of `.table-responsive-*` classes for configuring the screen
-// size of where your table will overflow.
 
 @each $breakpoint in map-keys($grid-breakpoints) {
   $infix: breakpoint-infix($breakpoint, $grid-breakpoints);

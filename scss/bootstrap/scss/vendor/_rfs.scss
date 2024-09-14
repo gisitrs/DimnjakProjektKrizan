@@ -1,13 +1,3 @@
-// stylelint-disable property-blacklist, scss/dollar-variable-default
-
-// SCSS RFS mixin
-//
-// Automated responsive values for font sizes, paddings, margins and much more
-//
-// Licensed under MIT (https://github.com/twbs/rfs/blob/master/LICENSE)
-
-// Configuration
-
 // Base value
 $rfs-base-value: 1.25rem !default;
 $rfs-unit: rem !default;
@@ -43,7 +33,6 @@ $rfs-class: false !default;
 // 1 rem = $rfs-rem-value px
 $rfs-rem-value: 16 !default;
 
-// Safari iframe resize bug: https://github.com/twbs/rfs/issues/14
 $rfs-safari-iframe-resize-bug-fix: false !default;
 
 // Disable RFS by setting $enable-rfs to false
@@ -100,7 +89,6 @@ $rfs-mq-property-height: if($rfs-mode == max-media-query, max-height, min-height
 // Internal mixin that adds disable classes to the selector if needed.
 @mixin _rfs-rule {
   @if $rfs-class == disable and $rfs-mode == max-media-query {
-    // Adding an extra class increases specificity, which prevents the media query to override the property
     &,
     .disable-rfs &,
     &.disable-rfs {

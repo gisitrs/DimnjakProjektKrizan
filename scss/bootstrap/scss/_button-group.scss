@@ -10,8 +10,6 @@
     flex: 1 1 auto;
   }
 
-  // Bring the hover, focused, and "active" buttons to the front to overlay
-  // the borders properly
   > .btn-check:checked + .btn,
   > .btn-check:focus + .btn,
   > .btn:hover,
@@ -46,10 +44,6 @@
     @include border-end-radius(0);
   }
 
-  // The left radius should be 0 if the button is:
-  // - the "third or more" child
-  // - the second child and the previous element isn't `.btn-check` (making it the first child visually)
-  // - part of a btn-group which isn't the first child
   > .btn:nth-child(n + 3),
   > :not(.btn-check) + .btn,
   > .btn-group:not(:first-child) > .btn {
@@ -63,11 +57,6 @@
 
 .btn-group-sm > .btn { @extend .btn-sm; }
 .btn-group-lg > .btn { @extend .btn-lg; }
-
-
-//
-// Split button dropdowns
-//
 
 .dropdown-toggle-split {
   padding-right: $btn-padding-x * .75;
@@ -94,9 +83,6 @@
   padding-left: $btn-padding-x-lg * .75;
 }
 
-
-// The clickable button for toggling the menu
-// Set the same inset shadow as the :active state
 .btn-group.show .dropdown-toggle {
   @include box-shadow($btn-active-box-shadow);
 
@@ -105,11 +91,6 @@
     @include box-shadow(none);
   }
 }
-
-
-//
-// Vertical button groups
-//
 
 .btn-group-vertical {
   flex-direction: column;

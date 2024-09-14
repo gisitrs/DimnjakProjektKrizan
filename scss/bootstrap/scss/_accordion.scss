@@ -93,11 +93,6 @@
   padding: $accordion-body-padding-y $accordion-body-padding-x;
 }
 
-
-// Flush accordion items
-//
-// Remove borders and border-radius to keep accordion items edge-to-edge.
-
 .accordion-flush {
   .accordion-collapse {
     border-width: 0;

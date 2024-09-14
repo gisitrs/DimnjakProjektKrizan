@@ -14,7 +14,7 @@
     position: relative; // For focus state's z-index
     flex: 1 1 auto;
     width: 1%;
-    min-width: 0; // https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size
+    min-width: 0; 
   }
 
   // Bring the "active" form control to the top of surrounding elements
@@ -23,9 +23,6 @@
     z-index: 3;
   }
 
-  // Ensure buttons are always above inputs for more visually pleasing borders.
-  // This isn't needed for `.input-group-text` since it shares the same border-color
-  // as our inputs.
   .btn {
     position: relative;
     z-index: 2;
@@ -38,9 +35,6 @@
 
 
 // Textual addons
-//
-// Serves as a catch-all element for any text or radio/checkbox input you wish
-// to prepend or append to an input.
 
 .input-group-text {
   display: flex;
@@ -88,10 +82,6 @@
 
 
 // Rounded corners
-//
-// These rulesets must come after the sizing ones to properly override sm and lg
-// border-radius values when extending. They're more specific than we'd like
-// with the `.input-group >` part, but without it, we cannot override the sizing.
 
 // stylelint-disable-next-line no-duplicate-selectors
 .input-group {
