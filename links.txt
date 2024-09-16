@@ -13,7 +13,7 @@ Feedback
 - Promeniti redosled proizvoda u okviru stranice "Proizvodi". Red sa Alu i drvenim merdevinama, Krovnim prozorima i Krovnim folijama, postaviti da bude prvi sa novim redosledom (Krovne folije, Alu i drvenim merdevinama i Krovnim prozorima)
 
 - Proizvodima dodati mogućnost da se klikom na sliku korisnik navigira na konkretnu stranicu proizvoda (kao što je sada na "Pročitaj više")
-- Promeniti tekstove kod svih proizvoda (sekcija "Karakteristike", zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
+- ČEKANJE Promeniti tekstove kod svih proizvoda (sekcija "Karakteristike", zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
 
 - REŠENO Skinuti cenovnike. U okviru teksta će biti naznačene neke od MP i VP cena, sa napomenom "Upit za cenu"
 - ČEKANJE Promena fotografija za većinu proizvoda (Zamolio bih Ljiljanu da mi dostavi nove fotografije). 
@@ -22,7 +22,7 @@ Feedback
 - ISTRAŽITI Search funkcionalnost
 - ISTRAŽITI zašto se na Mac-u pojavljuje BitNINJA zabrana za sajt prodajainoxdimnjaka.rs
 
-- Krovni dodaci da dobiju zasebnu stranicu
-- U footer-u dodati sekciju sa korisnim linkovima (pored sekcije "Brzi linkovi")
+- REŠENO Krovni dodaci da dobiju zasebnu stranicu
+- REŠENO U footer-u dodati sekciju sa korisnim linkovima (pored sekcije "Brzi linkovi")
 
 - NOVO Nabaviti katalog za Schiedel dimnjake, Merdevine (ALU i drvene), 
