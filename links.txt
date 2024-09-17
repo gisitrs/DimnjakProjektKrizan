@@ -10,9 +10,9 @@ Feedback
 - REŠENO Sekciju "Članovi tima" izbaciti sa sajta
 
 - U navigacionom linku za proizvode napraviti padajući meni sa svim proizvodima pojedinačno, tako da korisnik može odmah da ode na stranicu za određeni proizvod
-- Promeniti redosled proizvoda u okviru stranice "Proizvodi". Red sa Alu i drvenim merdevinama, Krovnim prozorima i Krovnim folijama, postaviti da bude prvi sa novim redosledom (Krovne folije, Alu i drvenim merdevinama i Krovnim prozorima)
+- REŠENO Promeniti redosled proizvoda u okviru stranice "Proizvodi". Red sa Alu i drvenim merdevinama, Krovnim prozorima i Krovnim folijama, postaviti da bude prvi sa novim redosledom (Krovne folije, Alu i drvenim merdevinama i Krovnim prozorima)
 
-- Proizvodima dodati mogućnost da se klikom na sliku korisnik navigira na konkretnu stranicu proizvoda (kao što je sada na "Pročitaj više")
+- REŠENO Proizvodima dodati mogućnost da se klikom na sliku korisnik navigira na konkretnu stranicu proizvoda (kao što je sada na "Pročitaj više")
 - ČEKANJE Promeniti tekstove kod svih proizvoda (sekcija "Karakteristike", zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
 
 - REŠENO Skinuti cenovnike. U okviru teksta će biti naznačene neke od MP i VP cena, sa napomenom "Upit za cenu"
@@ -26,3 +26,5 @@ Feedback
 - REŠENO U footer-u dodati sekciju sa korisnim linkovima (pored sekcije "Brzi linkovi")
 
 - NOVO Nabaviti katalog za Schiedel dimnjake, Merdevine (ALU i drvene), 
+- NOVO "Mozete nas pratiti" skloniti beli space (Naslovna, O nama...)
+- REŠENO Krovni dodaci sekciju dodati na stranici "Proizvodi" kad se bude radila promena redosleda
