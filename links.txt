@@ -1,6 +1,8 @@
 
 GitHub linkpath - https://gisitrs.github.io/DimnjakProjektKrizan/
 
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images  - srcset link
+
 Feedback
 
 - Na Google Chrome-u koji se pokreće na Mac-u, slike u prikazu su prevelike, treba smanjiti njihovu veličinu
