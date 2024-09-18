@@ -11,7 +11,7 @@ Feedback
 - REŠENO Sajt prodajainoxdimnjaka.rs prikazati samo kao link koji klikom vodi na tu adresu, skloniti ugrađen prozor koji prikazuje sadržaj sajta
 - REŠENO Sekciju "Članovi tima" izbaciti sa sajta
 
-- U navigacionom linku za proizvode napraviti padajući meni sa svim proizvodima pojedinačno, tako da korisnik može odmah da ode na stranicu za određeni proizvod
+- REŠENO U navigacionom linku za proizvode napraviti padajući meni sa svim proizvodima pojedinačno, tako da korisnik može odmah da ode na stranicu za određeni proizvod
 - REŠENO Promeniti redosled proizvoda u okviru stranice "Proizvodi". Red sa Alu i drvenim merdevinama, Krovnim prozorima i Krovnim folijama, postaviti da bude prvi sa novim redosledom (Krovne folije, Alu i drvenim merdevinama i Krovnim prozorima)
 
 - REŠENO Proizvodima dodati mogućnost da se klikom na sliku korisnik navigira na konkretnu stranicu proizvoda (kao što je sada na "Pročitaj više")
