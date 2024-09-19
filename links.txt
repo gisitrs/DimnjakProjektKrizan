@@ -28,5 +28,5 @@ Feedback
 - REŠENO U footer-u dodati sekciju sa korisnim linkovima (pored sekcije "Brzi linkovi")
 
 - NOVO Nabaviti katalog za Schiedel dimnjake, Merdevine (ALU i drvene), 
-- NOVO "Mozete nas pratiti" skloniti beli space (Naslovna, O nama...)
+- REŠENO "Mozete nas pratiti" skloniti beli space (Naslovna, O nama...)
 - REŠENO Krovni dodaci sekciju dodati na stranici "Proizvodi" kad se bude radila promena redosleda
