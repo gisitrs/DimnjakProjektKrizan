@@ -5,8 +5,8 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Res
 
 Feedback
 
-- Na Google Chrome-u koji se pokreće na Mac-u, slike u prikazu su prevelike, treba smanjiti njihovu veličinu
-- ČEKANJE Promeniti tekst u sekciji "O nama". Razmotriti da li da se brojevi koji govore o klijentima "Zadovoljnim klijentima" i "Inostranim kompanijama" uopšte prikazuju. (Zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
+- REŠENO Na Google Chrome-u koji se pokreće na Mac-u, slike u prikazu su prevelike, treba smanjiti njihovu veličinu
+- NA ČEKANJU Promeniti tekst u sekciji "O nama". Razmotriti da li da se brojevi koji govore o klijentima "Zadovoljnim klijentima" i "Inostranim kompanijama" uopšte prikazuju. (Zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
 
 - REŠENO Sajt prodajainoxdimnjaka.rs prikazati samo kao link koji klikom vodi na tu adresu, skloniti ugrađen prozor koji prikazuje sadržaj sajta
 - REŠENO Sekciju "Članovi tima" izbaciti sa sajta
@@ -15,18 +15,37 @@ Feedback
 - REŠENO Promeniti redosled proizvoda u okviru stranice "Proizvodi". Red sa Alu i drvenim merdevinama, Krovnim prozorima i Krovnim folijama, postaviti da bude prvi sa novim redosledom (Krovne folije, Alu i drvenim merdevinama i Krovnim prozorima)
 
 - REŠENO Proizvodima dodati mogućnost da se klikom na sliku korisnik navigira na konkretnu stranicu proizvoda (kao što je sada na "Pročitaj više")
-- ČEKANJE Promeniti tekstove kod svih proizvoda (sekcija "Karakteristike", zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
+- NA ČEKANJU Promeniti tekstove kod svih proizvoda (sekcija "Karakteristike", zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
 
 - REŠENO Skinuti cenovnike. U okviru teksta će biti naznačene neke od MP i VP cena, sa napomenom "Upit za cenu"
-- ČEKANJE Promena fotografija za većinu proizvoda (Zamolio bih Ljiljanu da mi dostavi nove fotografije). 
+- NA ČEKANJU Promena fotografija za većinu proizvoda (Zamolio bih Ljiljanu da mi dostavi nove fotografije). 
 
-- ISTRAŽITI kako da se uklope tekst i pojedine fotografije zajedno i da se tako prikazuju za pojedine proizvode.
-- ISTRAŽITI Search funkcionalnost
-- ISTRAŽITI zašto se na Mac-u pojavljuje BitNINJA zabrana za sajt prodajainoxdimnjaka.rs
+- REŠENO Kako da se uklope tekst i pojedine fotografije zajedno i da se tako prikazuju za pojedine proizvode.
+- REŠENO Search funkcionalnost
+- REŠENO Zašto se na Mac-u pojavljuje BitNINJA zabrana za sajt prodajainoxdimnjaka.rs
 
 - REŠENO Krovni dodaci da dobiju zasebnu stranicu
 - REŠENO U footer-u dodati sekciju sa korisnim linkovima (pored sekcije "Brzi linkovi")
 
 - NOVO Nabaviti katalog za Schiedel dimnjake, Merdevine (ALU i drvene), 
+- NOVO Testirati css i scss fajlove, da li su baš svi neophodni - izbaciti one koji se ne koriste
 - REŠENO "Mozete nas pratiti" skloniti beli space (Naslovna, O nama...)
 - REŠENO Krovni dodaci sekciju dodati na stranici "Proizvodi" kad se bude radila promena redosleda
+
+
+------- Searching products options - useful links (Ima logike samo napraviti na Naslovnoj strani i Proizvodi stranama)
+
+https://www.youtube.com/watch?v=gBluXDKo6d4
+
+------- Tekst i slike (Bootstrap cards)
+
+https://getbootstrap.com/docs/4.4/components/card/ (Images)
+
+------- Embeded Card to Carousel element (Bootstrap)
+
+https://www.youtube.com/watch?v=kHPm_AlxP7U
+
+
+-------- BitNinja (Video at 9:50 gray list IP)
+
+https://www.youtube.com/watch?v=osVZZnTDqKk
