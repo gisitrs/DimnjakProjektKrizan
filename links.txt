@@ -6,7 +6,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Res
 Feedback
 
 - REŠENO Na Google Chrome-u koji se pokreće na Mac-u, slike u prikazu su prevelike, treba smanjiti njihovu veličinu
-- NA ČEKANJU Promeniti tekst u sekciji "O nama". Razmotriti da li da se brojevi koji govore o klijentima "Zadovoljnim klijentima" i "Inostranim kompanijama" uopšte prikazuju. (Zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
+- REŠENO Promeniti tekst u sekciji "O nama". Razmotriti da li da se brojevi koji govore o klijentima "Zadovoljnim klijentima" i "Inostranim kompanijama" uopšte prikazuju. (Zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
 
 - REŠENO Sajt prodajainoxdimnjaka.rs prikazati samo kao link koji klikom vodi na tu adresu, skloniti ugrađen prozor koji prikazuje sadržaj sajta
 - REŠENO Sekciju "Članovi tima" izbaciti sa sajta
@@ -49,3 +49,28 @@ https://www.youtube.com/watch?v=kHPm_AlxP7U
 -------- BitNinja (Video at 9:50 gray list IP)
 
 https://www.youtube.com/watch?v=osVZZnTDqKk
+
+--- Novi Feedback
+
+1.- REŠENO Dodati tekst za sekciju "O nama" + skloniti brojeve o klijentima
+2.- REŠENO Prodajainoxdimnjaka.rs na Macu se lepo vidi ali na Lenovo se ne vidi pocetni deo adrese za ovaj drugi sajt. Poslao Petar sliku na whatsapp
+
+3.- Ugradnja, novi deo u navigaciji: Ovde pored Proizvodi, horizontalno treba dodati Usluge i u 
+padajućem meniju da bude Usluga ugradnje dimnjaka i Usluga ugradnje krovnih prozora. 
+Ovo na klik moze da vodi na stranicu Dimnjaci i na stranicu Krovni prozori
+4.- Krovne folije promena teksta
+5.- Krovne folije kreiranje slike i sklanjanje Carousel-a
+
+6.- Merdevine promena slike i teksta
+7.- Krovni prozori promena teksta + postojeće slike prilagoditi
+
+8.- Erlus crep promena teksta
+9.- Erlus crep dodavanje novih slika u tekstu
+10.- Erlus crep izbacivanje Carousel-a i setovanje samo jedne slike 
+
+- PITANJE: Da li možeš da pratiš kada neko download-uje katalog? 
+I da li nam treba Politika privatnosti i Cookies? 
+Ja mogu to da napravim, ali mislim da je to vazno u situacijama kada prikupljamo 
+i cuvamo neke podatke, sto mislim da mi ne radimo?
+
+ A ovaj postojeći font na sajtu deluje ok, samo ćeš mi napisati koji je tačno da znamo.
