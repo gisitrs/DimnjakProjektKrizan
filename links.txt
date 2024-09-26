@@ -55,11 +55,12 @@ https://www.youtube.com/watch?v=osVZZnTDqKk
 1.- REŠENO Dodati tekst za sekciju "O nama" + skloniti brojeve o klijentima
 2.- REŠENO Prodajainoxdimnjaka.rs na Macu se lepo vidi ali na Lenovo se ne vidi pocetni deo adrese za ovaj drugi sajt. Poslao Petar sliku na whatsapp
 
-3.- Ugradnja, novi deo u navigaciji: Ovde pored Proizvodi, horizontalno treba dodati Usluge i u 
+3.- REŠENO Ugradnja, novi deo u navigaciji: Ovde pored Proizvodi, horizontalno treba dodati Usluge i u 
 padajućem meniju da bude Usluga ugradnje dimnjaka i Usluga ugradnje krovnih prozora. 
 Ovo na klik moze da vodi na stranicu Dimnjaci i na stranicu Krovni prozori
 4.- Krovne folije promena teksta
 5.- Krovne folije kreiranje slike i sklanjanje Carousel-a
+5.1 - Pitati ih za prevode za natpise na slici
 
 6.- Merdevine promena slike i teksta
 7.- Krovni prozori promena teksta + postojeće slike prilagoditi
