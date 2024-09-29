@@ -3,7 +3,7 @@ GitHub linkpath - https://gisitrs.github.io/DimnjakProjektKrizan/
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images  - srcset link
 
-Feedback
+--- Stari Feedback
 
 - REŠENO Na Google Chrome-u koji se pokreće na Mac-u, slike u prikazu su prevelike, treba smanjiti njihovu veličinu
 - REŠENO Promeniti tekst u sekciji "O nama". Razmotriti da li da se brojevi koji govore o klijentima "Zadovoljnim klijentima" i "Inostranim kompanijama" uopšte prikazuju. (Zamolio bih Ljiljanu da mi dostavi tekstove kada budu bili gotovi)
