@@ -61,7 +61,7 @@ Ovo na klik moze da vodi na stranicu Dimnjaci i na stranicu Krovni prozori
 4.- REŠENO Krovne folije promena teksta
 5.- Krovne folije kreiranje slike i sklanjanje Carousel-a (Pitati ih za prevode za natpise na slici)
 
-6.- Merdevine promena slike i teksta
+6.- REŠENO Merdevine promena slike i teksta
 7.- Krovni prozori promena teksta + postojeće slike prilagoditi
 
 8.- Erlus crep promena teksta
