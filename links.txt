@@ -68,15 +68,16 @@ Ovo na klik moze da vodi na stranicu Dimnjaci i na stranicu Krovni prozori
 9.- REŠENO Erlus crep dodavanje novih slika u tekstu
 10.- REŠENO Erlus crep izbacivanje Carousel-a i setovanje samo jedne slike 
 
-11. - Dimnjaci promena teksta + promena veličina fotografija u karuselu
-12. - Klime promena teksta + promena veličina fotografija u karuselu
-13. - Krovni dodaci promena teksta + promena veličina fotografija u karuselu
+11. - REŠENO Dimnjaci promena teksta (ostaju iste slike)
+12. - REŠENO Klime promena teksta (ostaju iste slike)
+13. - REŠENO Krovni dodaci promena teksta (ostaju iste slike)
 
-14. - Kamena vuna promena teksta + promena veličina fotografija u karuselu + sklanjanje kataloga
+14. - Kamena vuna promena teksta + uklanjanje teksta sa fotografija + sklanjanje kataloga
 15. - Prevod slike za Krovne folije + promena na Home strani + Petrova slika za stranicu "Krovne folije"
 16. - Home page karusel promene
+17. - REŠENO "O nama" page slika pomera tekst "Naša misija"
 
-17. - Katalog prevod sa engleskog na srpski
+18. - Katalog prevod sa engleskog na srpski (Čekam Petra da mi pošalje)
 
 
 - PITANJE: Da li možeš da pratiš kada neko download-uje katalog? 
