@@ -72,7 +72,7 @@ Ovo na klik moze da vodi na stranicu Dimnjaci i na stranicu Krovni prozori
 12. - REŠENO Klime promena teksta (ostaju iste slike)
 13. - REŠENO Krovni dodaci promena teksta (ostaju iste slike)
 
-14. - Kamena vuna promena teksta + uklanjanje teksta sa fotografija + sklanjanje kataloga
+14. - REŠENO Kamena vuna promena teksta + uklanjanje teksta sa fotografija + sklanjanje kataloga
 15. - Prevod slike za Krovne folije + promena na Home strani + Petrova slika za stranicu "Krovne folije"
 16. - Home page karusel promene
 17. - REŠENO "O nama" page slika pomera tekst "Naša misija"
@@ -86,3 +86,28 @@ Ja mogu to da napravim, ali mislim da je to vazno u situacijama kada prikupljamo
 i cuvamo neke podatke, sto mislim da mi ne radimo?
 
  A ovaj postojeći font na sajtu deluje ok, samo ćeš mi napisati koji je tačno da znamo.
+
+ -- Translate slike za Krovne folije
+
+- Kron dach - Krovni dodaci
+- OptiLook - Krovni prozori
+- OptiSol - Roletne
+- Kron fol - Krovne folije
+- OptiLight - Svetlarnici i kupole
+- OptiStep - Tavanske merdevine
+- Kron Floor - deking
+- Kronway - Garažna vrata
+- BlockHeat - Zaštita od toplote
+
+-- Hecdex boje po kategorijama
+
+- Kron dach - #f9731a rgba(249,115,26,255)
+- OptiLook - #0071b9 rgba(0,113,185,255)
+- OptiSol - #f9951b rgba(249,149,27,255)
+- Kron fol - #a35e34 rgba(163,94,52,255)
+- OptiLight -  #07347d rgba(7,52,125,255)
+- OptiStep -  #c51d3b rgba(197,29,59,255)
+- Kron Floor - #c42654 rgba(196,38,84,255)
+- Kronway -  #231f1e rgba(35,31,30,255)
+- BlockHeat -   #006351 rgba(0,99,81,255)
+- Zuta - #fef300 rgba(254,243,0,255)
