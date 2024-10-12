@@ -68,6 +68,8 @@ Ovo na klik moze da vodi na stranicu Dimnjaci i na stranicu Krovni prozori
 9.- REŠENO Erlus crep dodavanje novih slika u tekstu
 10.- REŠENO Erlus crep izbacivanje Carousel-a i setovanje samo jedne slike 
 
+-- Drugi deo feedback-a
+
 11. - REŠENO Dimnjaci promena teksta (ostaju iste slike)
 12. - REŠENO Klime promena teksta (ostaju iste slike)
 13. - REŠENO Krovni dodaci promena teksta (ostaju iste slike)
@@ -77,7 +79,7 @@ Ovo na klik moze da vodi na stranicu Dimnjaci i na stranicu Krovni prozori
 16. - REŠENO Home page karusel promene
 17. - REŠENO "O nama" page slika pomera tekst "Naša misija"
 
-18. - Katalog prevod sa engleskog na srpski (Čekam Petra da mi pošalje)
+18. - REŠENO Katalog prevod sa engleskog na srpski
 19. - Petrova slika za stranicu "Krovne folije"?
 
 
