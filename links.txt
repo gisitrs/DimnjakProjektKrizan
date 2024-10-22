@@ -114,3 +114,17 @@ i cuvamo neke podatke, sto mislim da mi ne radimo?
 - Kronway -  #231f1e rgba(35,31,30,255)
 - BlockHeat -   #006351 rgba(0,99,81,255)
 - Zuta - #fef300 rgba(254,243,0,255)
+
+-- Final feedback
+
+- "O nama" + "Naslovna" skloniti reč "našu"
+- "O nama" + "Naslovna" reč "najstrože" prebaciti u "najstrožije"
+- "O nama" + "Naslovna" tekst "Naša misija je da" prebaciti u "Naš cilj je"
+- "O nama" izbaciti tekst "vam"
+- "Naslovna" tekst "širom države" prebaciti u "širom zemlje"
+
+- ODRADITI Rockwool katalog - skloniti cene u tabelama
+
+- "Naslovna" tekst "Dimnjak Projekt Križan DOO" prebaciti u "Projekt Križan DOO"
+- "O nama" + "Naslovna" tekst "Dobrodošli" prebaciti u "Dobro došli"
+- Sve stranice - Montaža dimnjaka korisni link
